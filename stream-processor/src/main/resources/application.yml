@@ -1,0 +1,11 @@
+spring:
+  kafka:
+    client-id: square-finder
+    bootstrap-servers:
+      - localhost:9092
+---
+kafka:
+  topic:
+    input: input-topic
+    even-output: square-topic
+    odd-output: double-topic
